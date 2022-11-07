@@ -4,8 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-this project git some clear point on
-1- Stream and function
+this project cover some point on Stream and function
 listen()
 sumStream()
 listenWithException()

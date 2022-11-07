@@ -276,7 +276,7 @@ class MyHomePage extends StatelessWidget {
               builder: (context, snapshot) {
                 return Text(
                   snapshot.hasData ? snapshot.data.toString() : 'no data yet',
-                  style: TextStyle(fontSize: 30),
+                  style: const TextStyle(fontSize: 30),
                 );
               })),
     );
