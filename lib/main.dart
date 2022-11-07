@@ -161,7 +161,7 @@ void skip() {
 }
 
 // skip first item meet the condition after than all the item will apear .
-void skipWhere() {
+void skipWhile() {
   getNumbers().skipWhile((element) => element % 5 != 0).listen(print);
 
 /*this is output the function 
@@ -209,12 +209,14 @@ void where() {
   });
 }
 
+//return the distinct value in stream.
 void distinct() {
   getNumberDuplicates().distinct().listen((event) {
     print(event);
   });
 }
 
+// you can chaining multi function to the stream
 void chaining() {
   getNumberDuplicates()
       .distinct()
